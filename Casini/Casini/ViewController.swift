@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: VCLLoggingViewController {
     
     private var myImgae: UIImage? {
         get {
@@ -43,9 +43,7 @@ class ViewController: UIViewController {
         didSet {
             scrollView.minimumZoomScale = 1/25
             scrollView.maximumZoomScale = 1.0
-            
             scrollView.delegate = self
-            
             scrollView.addSubview(imageView)
         }
     }
@@ -59,7 +57,6 @@ class ViewController: UIViewController {
         if imageUrl == nil {
             imageUrl = DemoURLs.stanford
         }
-        print(#function)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -67,7 +64,6 @@ class ViewController: UIViewController {
         if imageView.image == nil {
             fetchImage()
         }
-        print(#function)
     }
 }
 

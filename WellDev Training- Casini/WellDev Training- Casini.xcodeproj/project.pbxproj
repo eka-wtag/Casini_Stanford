@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C2ABE5742E2F7A050084C500 /* Casini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casini.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2ABE58A2E2F7A080084C500 /* CasiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2ABE5942E2F7A080084C500 /* CasiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ABE5742E2F7A050084C500 /* WellDev Training- Casini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WellDev Training- Casini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ABE58A2E2F7A080084C500 /* WellDev Training- CasiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WellDev Training- CasiniTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ABE5942E2F7A080084C500 /* WellDev Training- CasiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WellDev Training- CasiniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C2ABE59C2E2F7A080084C500 /* Exceptions for "Casini" folder in "Casini" target */ = {
+		C2ABE59C2E2F7A080084C500 /* Exceptions for "Casini" folder in "WellDev Training- Casini" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C2ABE5732E2F7A050084C500 /* Casini */;
+			target = C2ABE5732E2F7A050084C500 /* WellDev Training- Casini */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		C2ABE5762E2F7A050084C500 /* Casini */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C2ABE59C2E2F7A080084C500 /* Exceptions for "Casini" folder in "Casini" target */,
+				C2ABE59C2E2F7A080084C500 /* Exceptions for "Casini" folder in "WellDev Training- Casini" target */,
 			);
 			path = Casini;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		C2ABE5752E2F7A050084C500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2ABE5742E2F7A050084C500 /* Casini.app */,
-				C2ABE58A2E2F7A080084C500 /* CasiniTests.xctest */,
-				C2ABE5942E2F7A080084C500 /* CasiniUITests.xctest */,
+				C2ABE5742E2F7A050084C500 /* WellDev Training- Casini.app */,
+				C2ABE58A2E2F7A080084C500 /* WellDev Training- CasiniTests.xctest */,
+				C2ABE5942E2F7A080084C500 /* WellDev Training- CasiniUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2ABE5732E2F7A050084C500 /* Casini */ = {
+		C2ABE5732E2F7A050084C500 /* WellDev Training- Casini */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2ABE59D2E2F7A080084C500 /* Build configuration list for PBXNativeTarget "Casini" */;
+			buildConfigurationList = C2ABE59D2E2F7A080084C500 /* Build configuration list for PBXNativeTarget "WellDev Training- Casini" */;
 			buildPhases = (
 				C2ABE5702E2F7A050084C500 /* Sources */,
 				C2ABE5712E2F7A050084C500 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				C2ABE5762E2F7A050084C500 /* Casini */,
 			);
-			name = Casini;
+			name = "WellDev Training- Casini";
 			packageProductDependencies = (
 			);
 			productName = Casini;
-			productReference = C2ABE5742E2F7A050084C500 /* Casini.app */;
+			productReference = C2ABE5742E2F7A050084C500 /* WellDev Training- Casini.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2ABE5892E2F7A080084C500 /* CasiniTests */ = {
+		C2ABE5892E2F7A080084C500 /* WellDev Training- CasiniTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2ABE5A22E2F7A080084C500 /* Build configuration list for PBXNativeTarget "CasiniTests" */;
+			buildConfigurationList = C2ABE5A22E2F7A080084C500 /* Build configuration list for PBXNativeTarget "WellDev Training- CasiniTests" */;
 			buildPhases = (
 				C2ABE5862E2F7A080084C500 /* Sources */,
 				C2ABE5872E2F7A080084C500 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				C2ABE58D2E2F7A080084C500 /* CasiniTests */,
 			);
-			name = CasiniTests;
+			name = "WellDev Training- CasiniTests";
 			packageProductDependencies = (
 			);
 			productName = CasiniTests;
-			productReference = C2ABE58A2E2F7A080084C500 /* CasiniTests.xctest */;
+			productReference = C2ABE58A2E2F7A080084C500 /* WellDev Training- CasiniTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C2ABE5932E2F7A080084C500 /* CasiniUITests */ = {
+		C2ABE5932E2F7A080084C500 /* WellDev Training- CasiniUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2ABE5A52E2F7A080084C500 /* Build configuration list for PBXNativeTarget "CasiniUITests" */;
+			buildConfigurationList = C2ABE5A52E2F7A080084C500 /* Build configuration list for PBXNativeTarget "WellDev Training- CasiniUITests" */;
 			buildPhases = (
 				C2ABE5902E2F7A080084C500 /* Sources */,
 				C2ABE5912E2F7A080084C500 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				C2ABE5972E2F7A080084C500 /* CasiniUITests */,
 			);
-			name = CasiniUITests;
+			name = "WellDev Training- CasiniUITests";
 			packageProductDependencies = (
 			);
 			productName = CasiniUITests;
-			productReference = C2ABE5942E2F7A080084C500 /* CasiniUITests.xctest */;
+			productReference = C2ABE5942E2F7A080084C500 /* WellDev Training- CasiniUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2ABE56F2E2F7A050084C500 /* Build configuration list for PBXProject "Casini" */;
+			buildConfigurationList = C2ABE56F2E2F7A050084C500 /* Build configuration list for PBXProject "WellDev Training- Casini" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2ABE5732E2F7A050084C500 /* Casini */,
-				C2ABE5892E2F7A080084C500 /* CasiniTests */,
-				C2ABE5932E2F7A080084C500 /* CasiniUITests */,
+				C2ABE5732E2F7A050084C500 /* WellDev Training- Casini */,
+				C2ABE5892E2F7A080084C500 /* WellDev Training- CasiniTests */,
+				C2ABE5932E2F7A080084C500 /* WellDev Training- CasiniUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		C2ABE58C2E2F7A080084C500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2ABE5732E2F7A050084C500 /* Casini */;
+			target = C2ABE5732E2F7A050084C500 /* WellDev Training- Casini */;
 			targetProxy = C2ABE58B2E2F7A080084C500 /* PBXContainerItemProxy */;
 		};
 		C2ABE5962E2F7A080084C500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2ABE5732E2F7A050084C500 /* Casini */;
+			target = C2ABE5732E2F7A050084C500 /* WellDev Training- Casini */;
 			targetProxy = C2ABE5952E2F7A080084C500 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +474,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Casini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Casini";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellDev Training- Casini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellDev Training- Casini";
 			};
 			name = Debug;
 		};
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Casini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Casini";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellDev Training- Casini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellDev Training- Casini";
 			};
 			name = Release;
 		};
@@ -534,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2ABE56F2E2F7A050084C500 /* Build configuration list for PBXProject "Casini" */ = {
+		C2ABE56F2E2F7A050084C500 /* Build configuration list for PBXProject "WellDev Training- Casini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2ABE5A02E2F7A080084C500 /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2ABE59D2E2F7A080084C500 /* Build configuration list for PBXNativeTarget "Casini" */ = {
+		C2ABE59D2E2F7A080084C500 /* Build configuration list for PBXNativeTarget "WellDev Training- Casini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2ABE59E2E2F7A080084C500 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2ABE5A22E2F7A080084C500 /* Build configuration list for PBXNativeTarget "CasiniTests" */ = {
+		C2ABE5A22E2F7A080084C500 /* Build configuration list for PBXNativeTarget "WellDev Training- CasiniTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2ABE5A32E2F7A080084C500 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2ABE5A52E2F7A080084C500 /* Build configuration list for PBXNativeTarget "CasiniUITests" */ = {
+		C2ABE5A52E2F7A080084C500 /* Build configuration list for PBXNativeTarget "WellDev Training- CasiniUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2ABE5A62E2F7A080084C500 /* Debug */,
